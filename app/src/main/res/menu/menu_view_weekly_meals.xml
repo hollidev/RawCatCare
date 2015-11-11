@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="edu.lapinamk.holli.rawcatcare.ViewWeeklyMealsActivity">
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+    <item android:id="@+id/pet_status"
+          android:title="@string/pet_status"
+          android:icon="@drawable/ic_action_cat"
+          app:showAsAction="ifRoom"/>
+    <item android:id="@+id/deleteMenu"
+          android:title="@string/delete_menu"
+          android:icon="@drawable/ic_action_discard"
+          app:showAsAction="ifRoom"/>
+    <item android:id="@+id/add_meal"
+          android:title="@string/add_meal"
+          android:icon="@drawable/ic_action_new"
+          app:showAsAction="always"/>
+</menu>

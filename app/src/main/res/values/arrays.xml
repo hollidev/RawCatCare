@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="nutrients">
+        <item>calories</item>
+        <item>carbohydrates</item>
+        <item>fat</item>
+        <item>protein</item>
+        <item>calcium</item>
+        <item>phosphorus</item>
+        <item>caToPRatio</item>
+        <item>fatProteinRatio</item>
+        <item>A</item>
+        <item>B1</item>
+        <item>B2</item>
+        <item>B3</item>
+        <item>B5</item>
+        <item>B6</item>
+        <item>B7</item>
+        <item>B9</item>
+        <item>B12</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>K</item>
+        <item>chloride</item>
+        <item>copper</item>
+        <item>iodine</item>
+        <item>iron</item>
+        <item>magnesium</item>
+        <item>manganese</item>
+        <item>omega3</item>
+        <item>omega6</item>
+        <item>potassium</item>
+        <item>selenium</item>
+        <item>sodium</item>
+        <item>zinc</item>
+    </string-array>
+    <string-array name="readable_nutrients">
+        <item>Calories</item>
+        <item>Carbohydrates</item>
+        <item>Fat</item>
+        <item>Protein</item>
+        <item>Calcium</item>
+        <item>Phosphorus</item>
+        <item>Calcium to phosphorus ratio</item>
+        <item>Fat protein ratio</item>
+        <item>Vitamin A</item>
+        <item>Vitamin B1</item>
+        <item>Vitamin B2</item>
+        <item>Vitamin B3</item>
+        <item>Vitamin B5</item>
+        <item>Vitamin B6</item>
+        <item>Vitamin B7</item>
+        <item>Vitamin B9</item>
+        <item>Vitamin B12</item>
+        <item>Vitamin C</item>
+        <item>Vitamin D</item>
+        <item>Vitamin E</item>
+        <item>Vitamin K</item>
+        <item>Chloride</item>
+        <item>Copper</item>
+        <item>Iodine</item>
+        <item>Iron</item>
+        <item>Magnesium</item>
+        <item>Manganese</item>
+        <item>Omega3</item>
+        <item>Omega6</item>
+        <item>Potassium</item>
+        <item>Selenium</item>
+        <item>Sodium</item>
+        <item>Zinc</item>
+    </string-array>
+    <string-array name="breeds_array">
+        <item>Abyssinian</item>
+        <item>American Curl</item>
+        <item>Balinese</item>
+        <item>Bengal</item>
+        <item>British Shorthair</item>
+        <item>Burmese</item>
+        <item>Burmilla</item>
+        <item>Chartreux</item>
+        <item>Cornish Rex</item>
+        <item>Cymric</item>
+        <item>Devon Rex</item>
+        <item>Don Sphynx</item>
+        <item>Egyptian Mau</item>
+        <item>European</item>
+        <item>Exotic</item>
+        <item>German Rex</item>
+        <item>House Cat</item>
+        <item>Japanese Bobtail</item>
+        <item>Korat</item>
+        <item>Kurilean Bobtail</item>
+        <item>LaPerm</item>
+        <item>Maine Coon</item>
+        <item>Manx</item>
+        <item>Neva Masquerade</item>
+        <item>Norwegian Forest Cat</item>
+        <item>Ocicat</item>
+        <item>Oriental</item>
+        <item>Persian</item>
+        <item>Peterbald</item>
+        <item>Ragdoll</item>
+        <item>Russian Blue</item>
+        <item>Sacred Birman</item>
+        <item>Selkirk Rex</item>
+        <item>Seychellois</item>
+        <item>Siamese</item>
+        <item>Siberian</item>
+        <item>Singapura</item>
+        <item>Snowshoe</item>
+        <item>Sokoke</item>
+        <item>Somali</item>
+        <item>Sphynx</item>
+        <item>Thai</item>
+        <item>Turkish Angora</item>
+        <item>Turkish Van</item>
+    </string-array>
+    <string-array name="activity_array">
+        <item>low</item>
+        <item>medium</item>
+        <item>high</item>
+    </string-array>
+    <string-array name="shapes_of_cat">
+        <item>lean</item>
+        <item>normal</item>
+        <item>overweight</item>
+    </string-array>
+    <string-array name="types_of_meat">
+        <item>Mush</item>
+        <item>Chicken</item>
+        <item>Turkey</item>
+        <!--<item>Duck</item> currently unavailable -->
+        <item>Cow</item>
+        <item>Pig</item>
+        <!--<item>Sheep</item> currently unavailable -->
+        <!--<item>Salmon</item> currently unavailable -->
+        <item>Reindeer</item>
+        <item>Moose</item>
+        <item>Horse</item>
+        <!--<item>Duck</item> currently unavailable -->
+        <item>Rabbit</item>
+    </string-array>
+    <string-array name="parts_of_chicken">
+        <item>neck</item>
+        <item>back</item>
+        <item>wing</item>
+        <item>breast</item>
+        <item>heart</item>
+        <item>liver</item>
+        <item>thigh</item>
+        <item>ground_meat</item>
+        <item>ground_whole</item>
+        <item>egg</item>
+    </string-array>
+    <string-array name="parts_of_duck">
+        <item>ground_meat</item>
+        <item>ground_whole</item>
+    </string-array>
+    <string-array name="parts_of_turkey">
+        <!--<item>neck</item> currently unavailable -->
+        <!--<item>ground_meat</item> currently unavailable -->
+        <item>ground_whole</item>
+    </string-array>
+    <string-array name="parts_of_sheep">
+        <item>ground_meat</item>
+       <!-- <item>ground_whole</item> currently unavailable -->
+    </string-array>
+    <string-array name="parts_of_cow">
+        <item>ground_meat</item>
+        <!--<item>ground_whole</item> currently unavailable -->
+    </string-array>
+    <string-array name="parts_of_rabbit">
+        <item>ground_meat</item>
+        <!--<item>ground_whole</item> currently unavailable -->
+    </string-array>
+    <string-array name="parts_of_horse">
+        <item>ground_meat</item>
+        <!--<item>ground_whole</item> currently unavailable -->
+    </string-array>
+    <string-array name="parts_of_reindeer">
+        <item>ground_meat</item>
+        <!--<item>ground_whole</item> currently unavailable -->
+    </string-array>
+    <string-array name="parts_of_moose">
+        <item>ground_meat</item>
+        <!--<item>ground_whole</item> currently unavailable -->
+    </string-array>
+    <string-array name="parts_of_pig">
+        <item>ground_meat</item>
+        <item>ground_whole</item>
+    </string-array>
+
+    <string-array name="mush_readable_options">
+        <item>chicken neck</item>
+        <item>chicken back</item>
+        <item>chicken wing</item>
+        <item>chicken ground whole</item>
+        <item>chicken ground boneless</item>
+        <item>chicken heart</item>
+        <item>chicken gizzard</item>
+        <item>chicken organ mix</item>
+        <item>turkey ground whole</item>
+        <item>turkey ground boneless</item>
+        <item>moose ground boneless</item>
+        <item>horse ground whole</item>
+        <item>salmon ground whole</item>
+        <item>reindeer ground whole</item>
+        <item>reindeer ground boneless</item>
+        <item>sheep ground whole</item>
+        <item>pig ground boneless</item>
+        <item>pig organ mix</item>
+        <item>pig heart</item>
+        <item>pig ground bone</item>
+        <item>pig beef mix</item>
+        <item>cow stomach</item>
+        <item>cow pig mix</item>
+    </string-array>
+
+    <string-array name="mush_parsable_options">
+        <item>mush_chicken neck</item>
+        <item>mush_chicken back</item>
+        <item>mush_chicken wing</item>
+        <item>mush_chicken ground_whole</item>
+        <item>mush_chicken ground_boneless</item>
+        <item>mush_chicken heart</item>
+        <item>mush_chicken gizzard</item>
+        <item>mush_chicken organ_mix</item>
+        <item>mush_turkey ground_whole</item>
+        <item>mush_turkey ground_boneless</item>
+        <item>mush_moose ground_boneless</item>
+        <item>mush_horse ground_whole</item>
+        <item>mush_salmon ground_whole</item>
+        <item>mush_reindeer ground_whole</item>
+        <item>mush_reindeer ground_boneless</item>
+        <item>mush_sheep ground_whole</item>
+        <item>mush_pig ground_boneless</item>
+        <item>mush_pig organ_mix</item>
+        <item>mush_pig heart</item>
+        <item>mush_pig ground_bone</item>
+        <item>mush_pig beef_mix</item>
+        <item>mush_cow stomach</item>
+        <item>mush_cow pig_mix</item>
+    </string-array>
+
+
+
+
+    <string-array name="parts_of_mush">
+        <item>chicken neck</item>
+        <item>chicken back</item>
+        <item>chicken wing</item>
+        <item>chicken ground_whole</item>
+        <item>chicken ground_boneless</item>
+        <item>chicken heart</item>
+        <item>chicken gizzard</item>
+        <item>chicken organ_mix</item>
+        <item>turkey ground_whole</item>
+        <item>turkey ground_boneless</item>
+        <item>moose ground_boneless</item>
+        <item>horse ground_whole</item>
+        <item>salmon ground_whole</item>
+        <item>reindeer ground_whole</item>
+        <item>reindeer ground_boneless</item>
+        <item>sheep ground_whole</item>
+        <item>pig ground_boneless</item>
+        <item>pig organ_mix</item>
+        <item>pig heart</item>
+        <item>pig ground_bone</item>
+        <item>pig beef_mix</item>
+        <item>cow stomach</item>
+        <item>cow pig_mix</item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+</resources>

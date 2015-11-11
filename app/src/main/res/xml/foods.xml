@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- source of information: -->
+
+<food>
+    <chicken>
+        <part>
+            <neck>
+                <common_values> <!-- grams per 100g -->
+                    <calories>297</calories>
+                    <carbohydrates>0</carbohydrates>
+                    <fat>26</fat>
+                    <protein>14</protein>
+                    <bone>38</bone>
+                    <meat>62</meat>
+                    <calcium>0.018</calcium>
+                    <phosphorus>0.112</phosphorus>
+                    <moisture>59.99</moisture>
+                    <ash>0.55</ash>
+                </common_values>
+                <vitamins> <!-- as micrograms -->
+                    <A>65</A>
+                    <B1>47</B1> <!-- thiamine -->
+                    <B2>191</B2> <!-- riboflavin -->
+                    <B3>3608</B3> <!-- niacin -->
+                    <B5>850</B5> <!-- pantothenic acid -->
+                    <B6>170</B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9>0</B9> <!-- folic acid -->
+                    <B12>0.26</B12>
+                    <C>0</C>
+                    <D></D>
+                    <E>300</E>
+                    <K></K>
+                </vitamins>
+                <other_values> <!-- as micrograms -->
+                    <chloride></chloride>
+                    <copper>80</copper>
+                    <fiber>0</fiber>
+                    <iodine></iodine>
+                    <iron>1900</iron>
+                    <magnesium>13000</magnesium>
+                    <manganese>33</manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium>137000</potassium>
+                    <selenium>12</selenium>
+                    <sodium>64000</sodium>
+                    <zinc>1860</zinc>
+                </other_values>
+            </neck>
+            <back>
+                <common_values>
+                    <calories>319</calories>
+                    <carbohydrates>0</carbohydrates>
+                    <fat>29</fat>
+                    <protein>14</protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium>0.013000000000000001</calcium>
+                    <phosphorus>0.113</phosphorus>
+                    <moisture>58.1</moisture>
+                    <ash>0.64</ash>
+                </common_values>
+                <vitamins>
+                    <A></A>
+                    <B1>51</B1> <!-- thiamine -->
+                    <B2>116</B2> <!-- riboflavin -->
+                    <B3>4835</B3> <!-- niacin -->
+                    <B5>819</B5> <!-- pantothenic acid -->
+                    <B6>190</B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9>0</B9> <!-- folic acid -->
+                    <B12>0.25</B12>
+                    <C>1600</C>
+                    <D></D>
+                    <E>370</E>
+                    <K>2.4</K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper>47</copper>
+                    <fiber>0</fiber>
+                    <iodine></iodine>
+                    <iron>930mg</iron>
+                    <magnesium>15000</magnesium>
+                    <manganese>180</manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium>144</potassium>
+                    <selenium>12.1m</selenium>
+                    <sodium>64000</sodium>
+                    <zinc>1260</zinc>
+                </other_values>
+            </back>
+            <wing>
+                <common_values>
+                    <calories>200</calories>
+                    <carbohydrates>0</carbohydrates>
+                    <fat>15</fat>
+                    <protein>18</protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium>0.0115</calcium>
+                    <phosphorus>0.123</phosphorus>
+                    <moisture>69.19</moisture>
+                    <ash></ash>
+                </common_values>
+                <vitamins>
+                    <A>44</A>
+                    <B1>50</B1> <!-- thiamine -->
+                    <B2>10</B2> <!-- riboflavin -->
+                    <B3>5697</B3> <!-- niacin -->
+                    <B5>640</B5> <!-- pantothenic acid -->
+                    <B6>450</B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9>0</B9> <!-- folic acid -->
+                    <B12>0.3</B12>
+                    <C>400</C>
+                    <D>1.5</D>
+                    <E>700</E>
+                    <K>1.8</K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper>34</copper>
+                    <fiber>0</fiber>
+                    <iodine>8</iodine>
+                    <iron>700</iron>
+                    <magnesium>17000</magnesium>
+                    <manganese>11</manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium>170000</potassium>
+                    <selenium>16</selenium>
+                    <sodium>84000</sodium>
+                    <zinc>1300</zinc>
+                </other_values>
+            </wing>
+            <liver>
+                <common_values>
+                    <calories>119</calories>
+                    <carbohydrates>0.7</carbohydrates>
+                    <fat>4.83</fat>
+                    <protein>16.92</protein>
+                    <bone>0</bone>
+                    <meat>100</meat>
+                    <calcium>0.008</calcium>
+                    <phosphorus>0.297</phosphorus>
+                    <moisture>76.46</moisture>
+                    <ash>1.06</ash>
+                </common_values>
+                <vitamins>
+                    <A>11735</A>
+                    <B1>305</B1> <!-- thiamine -->
+                    <B2>1778</B2> <!-- riboflavin -->
+                    <B3>9728</B3> <!-- niacin -->
+                    <B5>6233</B5> <!-- pantothenic acid -->
+                    <B6>853</B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9>0</B9> <!-- folic acid -->
+                    <B12>16.58</B12>
+                    <C>17900</C>
+                    <D>0</D>
+                    <E>700</E>
+                    <K>0</K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper>492</copper>
+                    <fiber>0</fiber>
+                    <iodine></iodine>
+                    <iron>899o</iron>
+                    <magnesium>19000</magnesium>
+                    <manganese>255</manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium></potassium>
+                    <selenium>54.6</selenium>
+                    <sodium>71000</sodium>
+                    <zinc>2670</zinc>
+                </other_values>
+            </liver>
+            <ground_whole>
+                <common_values>
+                    <calories>143</calories>
+                    <carbohydrates>0.04</carbohydrates>
+                    <fat>8.1</fat>
+                    <protein>17.44</protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium>0.006</calcium>
+                    <phosphorus>0.178</phosphorus>
+                    <moisture>73.24</moisture>
+                    <ash>1.17</ash>
+                </common_values>
+                <vitamins>
+                    <A>0</A>
+                    <B1>109</B1> <!-- thiamine -->
+                    <B2>241</B2> <!-- riboflavin -->
+                    <B3>5575</B3> <!-- niacin -->
+                    <B5>1092</B5> <!-- pantothenic acid -->
+                    <B6>512</B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9>0</B9> <!-- folic acid -->
+                    <B12>560</B12>
+                    <C>0</C>
+                    <D></D>
+                    <E>270</E>
+                    <K>0.8</K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper>65</copper>
+                    <fiber>0</fiber>
+                    <iodine></iodine>
+                    <iron>820</iron>
+                    <magnesium>21000</magnesium>
+                    <manganese>16</manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium>522000</potassium>
+                    <selenium>10.2</selenium>
+                    <sodium>60000</sodium>
+                    <zinc>1470</zinc>
+                </other_values>
+            </ground_whole>
+            <ground_meat>
+                <common_values>
+                    <calories>147</calories>
+                    <carbohydrates>0</carbohydrates>
+                    <fat>6.8</fat>
+                    <protein>21.5</protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium>0.008</calcium>
+                    <phosphorus>0.19</phosphorus>
+                    <moisture></moisture>
+                    <ash></ash>
+                </common_values>
+                <vitamins>
+                    <A></A>
+                    <B1>70</B1> <!-- thiamine -->
+                    <B2>130</B2> <!-- riboflavin -->
+                    <B3>5575</B3> <!-- niacin -->
+                    <B5>1092</B5> <!-- pantothenic acid -->
+                    <B6>560</B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9>0</B9> <!-- folic acid -->
+                    <B12>1</B12>
+                    <C>0</C>
+                    <D>0.5</D>
+                    <E>700</E>
+                    <K>60</K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper>65</copper>
+                    <fiber>0</fiber>
+                    <iodine>5</iodine>
+                    <iron>600</iron>
+                    <magnesium>22000</magnesium>
+                    <manganese>16</manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium>270000</potassium>
+                    <selenium>12</selenium>
+                    <sodium>80000</sodium>
+                    <zinc>1100</zinc>
+                </other_values>
+            </ground_meat>
+            <egg>
+                <common_values>
+                    <calories>126</calories>
+                    <carbohydrates>0.3</carbohydrates>
+                    <fat>9</fat>
+                    <protein>11</protein>
+                    <bone>0</bone>
+                    <meat></meat>
+                    <calcium>0.0502</calcium>
+                    <phosphorus>0.1845</phosphorus>
+                    <moisture>76.15</moisture>
+                    <ash>1.06</ash>
+                </common_values>
+                <vitamins>
+                    <A></A>
+                    <B1>100</B1> <!-- thiamine -->
+                    <B2>330</B2> <!-- riboflavin -->
+                    <B3>75</B3> <!-- niacin -->
+                    <B5>1533</B5> <!-- pantothenic acid -->
+                    <B6>120</B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9>0</B9> <!-- folic acid -->
+                    <B12>2.2</B12>
+                    <C>0</C>
+                    <D>1.9</D>
+                    <E>1600</E>
+                    <K>0.7</K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper>2200</copper>
+                    <fiber>0</fiber>
+                    <iodine>38.7</iodine>
+                    <iron>2200</iron>
+                    <magnesium>11400</magnesium>
+                    <manganese>28</manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium>114400</potassium>
+                    <selenium>21.9</selenium>
+                    <sodium>97200</sodium>
+                    <zinc>1200</zinc>
+                </other_values>
+            </egg>
+            <heart>
+                <common_values>
+                    <calories>153</calories>
+                    <carbohydrates>0.7</carbohydrates>
+                    <fat>9.33</fat>
+                    <protein>15.55</protein>
+                    <bone>0</bone>
+                    <meat>100</meat>
+                    <calcium>0.012</calcium>
+                    <phosphorus>0.177</phosphorus>
+                    <moisture>73.56</moisture>
+                    <ash>0.85</ash>
+                </common_values>
+                <vitamins>
+                    <A>31.7</A>
+                    <B1>152</B1> <!-- thiamine -->
+                    <B2>728</B2> <!-- riboflavin -->
+                    <B3>4883</B3> <!-- niacin -->
+                    <B5>2559</B5> <!-- pantothenic acid -->
+                    <B6>369</B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9>0</B9> <!-- folic acid -->
+                    <B12>7.29</B12>
+                    <C>3200</C>
+                    <D></D>
+                    <E></E>
+                    <K></K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper>346</copper>
+                    <fiber>0</fiber>
+                    <iodine></iodine>
+                    <iron>5960</iron>
+                    <magnesium>15000</magnesium>
+                    <manganese>89</manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium>176000</potassium>
+                    <selenium>4.3</selenium>
+                    <sodium>74000</sodium>
+                    <zinc>65900</zinc>
+                </other_values>
+            </heart>
+            <thigh>
+                <common_values>
+                    <calories>207</calories>
+                    <carbohydrates>0</carbohydrates>
+                    <fat>16</fat>
+                    <protein>16.2</protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium>0.007</calcium>
+                    <phosphorus>0.11</phosphorus>
+                    <moisture></moisture>
+                    <ash></ash>
+                </common_values>
+                <vitamins>
+                    <A></A>
+                    <B1>120</B1> <!-- thiamine -->
+                    <B2>270</B2> <!-- riboflavin -->
+                    <B3>4900</B3> <!-- niacin -->
+                    <B5></B5> <!-- pantothenic acid -->
+                    <B6>280</B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9></B9> <!-- folic acid -->
+                    <B12>1</B12>
+                    <C>0</C>
+                    <D>0.5</D>
+                    <E>700</E>
+                    <K>60</K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper></copper>
+                    <fiber>0</fiber>
+                    <iodine>8</iodine>
+                    <iron>800</iron>
+                    <magnesium>21000</magnesium>
+                    <manganese></manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium>330000</potassium>
+                    <selenium>13</selenium>
+                    <sodium>80000</sodium>
+                    <zinc>1400</zinc>
+                </other_values>
+            </thigh>
+            <drumstick>
+                <common_values>
+                    <calories></calories>
+                    <carbohydrates></carbohydrates>
+                    <fat></fat>
+                    <protein></protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium></calcium>
+                    <phosphorus></phosphorus>
+                    <moisture></moisture>
+                    <ash></ash>
+                </common_values>
+                <vitamins>
+                    <A></A>
+                    <B1></B1> <!-- thiamine -->
+                    <B2></B2> <!-- riboflavin -->
+                    <B3></B3> <!-- niacin -->
+                    <B5></B5> <!-- pantothenic acid -->
+                    <B6></B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9></B9> <!-- folic acid -->
+                    <B12></B12>
+                    <C></C>
+                    <D></D>
+                    <E></E>
+                    <K></K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper></copper>
+                    <fiber></fiber>
+                    <iodine></iodine>
+                    <iron></iron>
+                    <magnesium></magnesium>
+                    <manganese></manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium></potassium>
+                    <selenium></selenium>
+                    <sodium></sodium>
+                    <zinc></zinc>
+                </other_values>
+            </drumstick>
+            <breast>
+                <common_values>
+                    <calories>157</calories>
+                    <carbohydrates>0</carbohydrates>
+                    <fat>7.2</fat>
+                    <protein>21.5</protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium>0.008</calcium>
+                    <phosphorus>0.19</phosphorus>
+                    <moisture></moisture>
+                    <ash></ash>
+                </common_values>
+                <vitamins>
+                    <A>55</A>
+                    <B1>70</B1> <!-- thiamine -->
+                    <B2>100</B2> <!-- riboflavin -->
+                    <B3>8000</B3> <!-- niacin -->
+                    <B5>804</B5> <!-- pantothenic acid -->
+                    <B6>550</B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9>0</B9> <!-- folic acid -->
+                    <B12>0.55</B12>
+                    <C>0</C>
+                    <D>0.5</D>
+                    <E>500</E>
+                    <K>30</K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper></copper>
+                    <fiber>0</fiber>
+                    <iodine>5</iodine>
+                    <iron>600</iron>
+                    <magnesium>22000</magnesium>
+                    <manganese>18</manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium>270000</potassium>
+                    <selenium>12</selenium>
+                    <sodium>80000</sodium>
+                    <zinc>1100</zinc>
+                </other_values>
+            </breast>
+        </part>
+    </chicken>
+
+    <turkey>
+        <part>
+            <neck>
+                <common_values>
+                    <calories></calories>
+                    <carbohydrates></carbohydrates>
+                    <fat></fat>
+                    <protein></protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium></calcium>
+                    <phosphorus></phosphorus>
+                    <moisture></moisture>
+                    <ash></ash>
+                </common_values>
+                <vitamins>
+                    <A></A>
+                    <B1></B1> <!-- thiamine -->
+                    <B2></B2> <!-- riboflavin -->
+                    <B3></B3> <!-- niacin -->
+                    <B5></B5> <!-- pantothenic acid -->
+                    <B6></B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9></B9> <!-- folic acid -->
+                    <B12></B12>
+                    <C></C>
+                    <D></D>
+                    <E></E>
+                    <K></K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper></copper>
+                    <fiber></fiber>
+                    <iodine></iodine>
+                    <iron></iron>
+                    <magnesium></magnesium>
+                    <manganese></manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium></potassium>
+                    <selenium></selenium>
+                    <sodium></sodium>
+                    <zinc></zinc>
+                </other_values>
+            </neck>
+            <ground_whole>
+                <common_values>
+                    <calories>144</calories>
+                    <carbohydrates>0</carbohydrates>
+                    <fat>6.3</fat>
+                    <protein>21</protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium>0.015</calcium>
+                    <phosphorus>o.17</phosphorus>
+                    <moisture>72.63</moisture>
+                    <ash>0.92</ash>
+                </common_values>
+                <vitamins>
+                    <A>13</A>
+                    <B1>100</B1> <!-- thiamine -->
+                    <B2>190</B2> <!-- riboflavin -->
+                    <B3>6000</B3> <!-- niacin -->
+                    <B5>1000</B5> <!-- pantothenic acid -->
+                    <B6>400</B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9>0</B9> <!-- folic acid -->
+                    <B12>1.1</B12>
+                    <C>0</C>
+                    <D>0.7</D>
+                    <E>900</E>
+                    <K>10</K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper>207</copper>
+                    <fiber>0</fiber>
+                    <iodine>3</iodine>
+                    <iron>1000</iron>
+                    <magnesium>19000</magnesium>
+                    <manganese>8</manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium>217000</potassium>
+                    <selenium>20</selenium>
+                    <sodium>59000</sodium>
+                    <zinc>2600</zinc>
+                </other_values>
+            </ground_whole>
+            <ground_meat>
+                <common_values>
+                    <calories></calories>
+                    <carbohydrates></carbohydrates>
+                    <fat></fat>
+                    <protein></protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium></calcium>
+                    <phosphorus></phosphorus>
+                    <moisture></moisture>
+                    <ash></ash>
+                </common_values>
+                <vitamins>
+                    <A></A>
+                    <B1></B1> <!-- thiamine -->
+                    <B2></B2> <!-- riboflavin -->
+                    <B3></B3> <!-- niacin -->
+                    <B5></B5> <!-- pantothenic acid -->
+                    <B6></B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9></B9> <!-- folic acid -->
+                    <B12></B12>
+                    <C></C>
+                    <D></D>
+                    <E></E>
+                    <K></K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper></copper>
+                    <fiber></fiber>
+                    <iodine></iodine>
+                    <iron></iron>
+                    <magnesium></magnesium>
+                    <manganese></manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium></potassium>
+                    <selenium></selenium>
+                    <sodium></sodium>
+                    <zinc></zinc>
+                </other_values>
+            </ground_meat>
+        </part>
+    </turkey>
+
+    <duck>
+        <part>
+            <ground_whole>
+
+            </ground_whole>
+            <ground_meat>
+
+            </ground_meat>
+        </part>
+
+    </duck>
+
+    <sheep>
+        <part>
+            <ground_whole>
+                <common_values>
+                    <calories></calories>
+                    <carbohydrates></carbohydrates>
+                    <fat></fat>
+                    <protein></protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium></calcium>
+                    <phosphorus></phosphorus>
+                    <moisture></moisture>
+                    <ash></ash>
+                </common_values>
+                <vitamins>
+                    <A></A>
+                    <B1></B1> <!-- thiamine -->
+                    <B2></B2> <!-- riboflavin -->
+                    <B3></B3> <!-- niacin -->
+                    <B5></B5> <!-- pantothenic acid -->
+                    <B6></B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9></B9> <!-- folic acid -->
+                    <B12></B12>
+                    <C></C>
+                    <D></D>
+                    <E></E>
+                    <K></K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper></copper>
+                    <fiber></fiber>
+                    <iodine></iodine>
+                    <iron></iron>
+                    <magnesium></magnesium>
+                    <manganese></manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium></potassium>
+                    <selenium></selenium>
+                    <sodium></sodium>
+                    <zinc></zinc>
+                </other_values>
+            </ground_whole>
+            <ground_meat>
+                <common_values>
+                    <calories>225</calories>
+                    <carbohydrates>0</carbohydrates>
+                    <fat>16</fat>
+                    <protein>17.4</protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium>0.0095</calcium>
+                    <phosphorus>0.14</phosphorus>
+                    <moisture>61.46</moisture>
+                    <ash>0.82</ash>
+                </common_values>
+                <vitamins>
+                    <A>12.6</A>
+                    <B1>190</B1> <!-- thiamine -->
+                    <B2>240</B2> <!-- riboflavin -->
+                    <B3>4300</B3> <!-- niacin -->
+                    <B5></B5> <!-- pantothenic acid -->
+                    <B6>230</B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9></B9> <!-- folic acid -->
+                    <B12>1.1</B12>
+                    <C>0</C>
+                    <D>0.2</D>
+                    <E>600</E>
+                    <K>1.84</K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper></copper>
+                    <fiber>0</fiber>
+                    <iodine>3</iodine>
+                    <iron>1600</iron>
+                    <magnesium>178000</magnesium>
+                    <manganese></manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium>232000</potassium>
+                    <selenium>13.5</selenium>
+                    <sodium>69000</sodium>
+                    <zinc>2800</zinc>
+                </other_values>
+            </ground_meat>
+        </part>
+
+
+    </sheep>
+
+    <cow>
+        <part>
+            <ground_meat>
+                <common_values>
+                    <calories>220</calories>
+                    <carbohydrates>0</carbohydrates>
+                    <fat>16</fat>
+                    <protein>19</protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium>0.011</calcium>
+                    <phosphorus>0.155</phosphorus>
+                    <moisture>65.66</moisture>
+                    <ash>0.91</ash>
+                </common_values>
+                <vitamins>
+                    <A>18.6</A>
+                    <B1>80</B1> <!-- thiamine -->
+                    <B2>140</B2> <!-- riboflavin -->
+                    <B3>4800</B3> <!-- niacin -->
+                    <B5>5490</B5> <!-- pantothenic acid -->
+                    <B6>400</B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9>0</B9> <!-- folic acid -->
+                    <B12>1.4</B12>
+                    <C>0</C>
+                    <D>0.2</D>
+                    <E>300</E>
+                    <K>1.5</K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper>67</copper>
+                    <fiber>0</fiber>
+                    <iodine>3</iodine>
+                    <iron>2100</iron>
+                    <magnesium>17500</magnesium>
+                    <manganese>10</manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium>275000</potassium>
+                    <selenium>15.5</selenium>
+                    <sodium>60000</sodium>
+                    <zinc>4000</zinc>
+                </other_values>
+            </ground_meat>
+            <ground_whole>
+                <common_values>
+                    <calories></calories>
+                    <carbohydrates></carbohydrates>
+                    <fat></fat>
+                    <protein></protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium></calcium>
+                    <phosphorus></phosphorus>
+                    <moisture></moisture>
+                    <ash></ash>
+                </common_values>
+                <vitamins>
+                    <A></A>
+                    <B1></B1> <!-- thiamine -->
+                    <B2></B2> <!-- riboflavin -->
+                    <B3></B3> <!-- niacin -->
+                    <B5></B5> <!-- pantothenic acid -->
+                    <B6></B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9></B9> <!-- folic acid -->
+                    <B12></B12>
+                    <C></C>
+                    <D></D>
+                    <E></E>
+                    <K></K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper></copper>
+                    <fiber></fiber>
+                    <iodine></iodine>
+                    <iron></iron>
+                    <magnesium></magnesium>
+                    <manganese></manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium></potassium>
+                    <selenium></selenium>
+                    <sodium></sodium>
+                    <zinc></zinc>
+                </other_values>
+            </ground_whole>
+        </part>
+
+    </cow>
+    <pig>
+        <part>
+            <ground_whole>
+                <common_values>
+                    <calories>259</calories>
+                    <carbohydrates>0</carbohydrates>
+                    <fat>21</fat>
+                    <protein>17.1</protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium>0.011</calcium>
+                    <phosphorus>0.18</phosphorus>
+                    <moisture>61.06</moisture>
+                    <ash>0.87</ash>
+                </common_values>
+                <vitamins>
+                    <A>7.8</A>
+                    <B1>900</B1> <!-- thiamine -->
+                    <B2>240</B2> <!-- riboflavin -->
+                    <B3>4400</B3> <!-- niacin -->
+                    <B5>668</B5> <!-- pantothenic acid -->
+                    <B6>310</B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9>0</B9> <!-- folic acid -->
+                    <B12>0.65</B12>
+                    <C>700</C>
+                    <D>0.5</D>
+                    <E>300</E>
+                    <K>0.27</K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper>45</copper>
+                    <fiber>0</fiber>
+                    <iodine>3</iodine>
+                    <iron>1000</iron>
+                    <magnesium>20000</magnesium>
+                    <manganese>10</manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium>300000</potassium>
+                    <selenium>20000</selenium>
+                    <sodium>54500</sodium>
+                    <zinc>2500</zinc>
+                </other_values>
+            </ground_whole>
+            <ground_meat>
+                <common_values>
+                    <calories>218</calories>
+                    <carbohydrates>0</carbohydrates>
+                    <fat>16.2</fat>
+                    <protein>18.2</protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium>0.012</calcium>
+                    <phosphorus>0.159</phosphorus>
+                    <moisture>64.67</moisture>
+                    <ash>0.91</ash>
+                </common_values>
+                <vitamins>
+                    <A>8.7</A>
+                    <B1>700</B1> <!-- thiamine -->
+                    <B2>300</B2> <!-- riboflavin -->
+                    <B3>5300</B3> <!-- niacin -->
+                    <B5>639</B5> <!-- pantothenic acid -->
+                    <B6>400</B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9>0</B9> <!-- folic acid -->
+                    <B12>0.6</B12>
+                    <C>0</C>
+                    <D>400</D>
+                    <E>400</E>
+                    <K>0.2</K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper>32</copper>
+                    <fiber>0</fiber>
+                    <iodine>3</iodine>
+                    <iron>800</iron>
+                    <magnesium>18000</magnesium>
+                    <manganese>10</manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium>260000</potassium>
+                    <selenium>23</selenium>
+                    <sodium>65000</sodium>
+                    <zinc>2000</zinc>
+                </other_values>
+            </ground_meat>
+        </part>
+    </pig>
+    <reindeer>
+        <part>
+            <ground_whole>
+                <common_values>
+                    <calories></calories>
+                    <carbohydrates></carbohydrates>
+                    <fat></fat>
+                    <protein></protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium></calcium>
+                    <phosphorus></phosphorus>
+                    <moisture></moisture>
+                    <ash></ash>
+                </common_values>
+                <vitamins>
+                    <A></A>
+                    <B1></B1> <!-- thiamine -->
+                    <B2></B2> <!-- riboflavin -->
+                    <B3></B3> <!-- niacin -->
+                    <B5></B5> <!-- pantothenic acid -->
+                    <B6></B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9></B9> <!-- folic acid -->
+                    <B12></B12>
+                    <C></C>
+                    <D></D>
+                    <E></E>
+                    <K></K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper></copper>
+                    <fiber></fiber>
+                    <iodine></iodine>
+                    <iron></iron>
+                    <magnesium></magnesium>
+                    <manganese></manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium></potassium>
+                    <selenium></selenium>
+                    <sodium></sodium>
+                    <zinc></zinc>
+                </other_values>
+            </ground_whole>
+            <ground_meat>
+                <common_values>
+                    <calories>127</calories>
+                    <carbohydrates>0</carbohydrates>
+                    <fat>4.5</fat>
+                    <protein>21.6</protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium>0.012</calcium>
+                    <phosphorus></phosphorus>
+                    <moisture></moisture>
+                    <ash></ash>
+                </common_values>
+                <vitamins>
+                    <A>6</A>
+                    <B1>100</B1> <!-- thiamine -->
+                    <B2>200</B2> <!-- riboflavin -->
+                    <B3>5100</B3> <!-- niacin -->
+                    <B5></B5> <!-- pantothenic acid -->
+                    <B6>500</B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9></B9> <!-- folic acid -->
+                    <B12>6.3</B12>
+                    <C>0</C>
+                    <D>0.2</D>
+                    <E>800</E>
+                    <K>1</K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper></copper>
+                    <fiber>0</fiber>
+                    <iodine>6</iodine>
+                    <iron>6700</iron>
+                    <magnesium>33000</magnesium>
+                    <manganese></manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium>440000</potassium>
+                    <selenium>30</selenium>
+                    <sodium>95000</sodium>
+                    <zinc>4800</zinc>
+                </other_values>
+            </ground_meat>
+        </part>
+    </reindeer>
+    <moose>
+        <part>
+            <ground_whole>
+                <common_values>
+                    <calories></calories>
+                    <carbohydrates></carbohydrates>
+                    <fat></fat>
+                    <protein></protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium></calcium>
+                    <phosphorus></phosphorus>
+                    <moisture></moisture>
+                    <ash></ash>
+                </common_values>
+                <vitamins>
+                    <A></A>
+                    <B1></B1> <!-- thiamine -->
+                    <B2></B2> <!-- riboflavin -->
+                    <B3></B3> <!-- niacin -->
+                    <B5></B5> <!-- pantothenic acid -->
+                    <B6></B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9></B9> <!-- folic acid -->
+                    <B12></B12>
+                    <C></C>
+                    <D></D>
+                    <E></E>
+                    <K></K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper></copper>
+                    <fiber></fiber>
+                    <iodine></iodine>
+                    <iron></iron>
+                    <magnesium></magnesium>
+                    <manganese></manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium></potassium>
+                    <selenium></selenium>
+                    <sodium></sodium>
+                    <zinc></zinc>
+                </other_values>
+            </ground_whole>
+            <ground_meat>
+                <common_values>
+                    <calories>109</calories>
+                    <carbohydrates>0</carbohydrates>
+                    <fat>2</fat>
+                    <protein>21.5</protein>
+                    <bone>0</bone>
+                    <meat>100</meat>
+                    <calcium>0.006</calcium>
+                    <phosphorus>0.22</phosphorus>
+                    <moisture>74.79</moisture>
+                    <ash>1.41</ash>
+                </common_values>
+                <vitamins>
+                    <A>7.5</A>
+                    <B1>500</B1> <!-- thiamine -->
+                    <B2>300</B2> <!-- riboflavin -->
+                    <B3>5200</B3> <!-- niacin -->
+                    <B5></B5> <!-- pantothenic acid -->
+                    <B6>630</B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9></B9> <!-- folic acid -->
+                    <B12>6.3</B12>
+                    <C>2</C>
+                    <D>0.2</D>
+                    <E>800</E>
+                    <K>3</K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper>67</copper>
+                    <fiber>0</fiber>
+                    <iodine>3</iodine>
+                    <iron>3400</iron>
+                    <magnesium>25000</magnesium>
+                    <manganese>8</manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium>345000</potassium>
+                    <selenium>4</selenium>
+                    <sodium>60000</sodium>
+                    <zinc>3200</zinc>
+                </other_values>
+            </ground_meat>
+        </part>
+    </moose>
+    <horse>
+        <part>
+            <ground_whole>
+                <common_values>
+                    <calories></calories>
+                    <carbohydrates></carbohydrates>
+                    <fat></fat>
+                    <protein></protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium></calcium>
+                    <phosphorus></phosphorus>
+                    <moisture></moisture>
+                    <ash></ash>
+                </common_values>
+                <vitamins>
+                    <A></A>
+                    <B1></B1> <!-- thiamine -->
+                    <B2></B2> <!-- riboflavin -->
+                    <B3></B3> <!-- niacin -->
+                    <B5></B5> <!-- pantothenic acid -->
+                    <B6></B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9></B9> <!-- folic acid -->
+                    <B12></B12>
+                    <C></C>
+                    <D></D>
+                    <E></E>
+                    <K></K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper></copper>
+                    <fiber></fiber>
+                    <iodine></iodine>
+                    <iron></iron>
+                    <magnesium></magnesium>
+                    <manganese></manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium></potassium>
+                    <selenium></selenium>
+                    <sodium></sodium>
+                    <zinc></zinc>
+                </other_values>
+            </ground_whole>
+            <ground_meat>
+                <common_values>
+                    <calories>133</calories>
+                    <carbohydrates>0</carbohydrates>
+                    <fat>4.6</fat>
+                    <protein>21</protein>
+                    <bone>0</bone>
+                    <meat>100</meat>
+                    <calcium>0.006</calcium>
+                    <phosphorus>0.221</phosphorus>
+                    <moisture>72.63</moisture>
+                    <ash>0.99</ash>
+                </common_values>
+                <vitamins>
+                    <A>0</A>
+                    <B1>130</B1> <!-- thiamine -->
+                    <B2>100</B2> <!-- riboflavin -->
+                    <B3>4600</B3> <!-- niacin -->
+                    <B5></B5> <!-- pantothenic acid -->
+                    <B6>380</B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9></B9> <!-- folic acid -->
+                    <B12>3</B12>
+                    <C>1000</C>
+                    <D></D>
+                    <E></E>
+                    <K></K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper>144</copper>
+                    <fiber>0</fiber>
+                    <iodine></iodine>
+                    <iron>382000</iron>
+                    <magnesium>24000</magnesium>
+                    <manganese>19</manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium>360000</potassium>
+                    <selenium>10.1</selenium>
+                    <sodium>53000</sodium>
+                    <zinc>2900</zinc>
+                </other_values>
+            </ground_meat>
+        </part>
+    </horse>
+    <rabbit>
+        <part>
+            <ground_whole>
+                <common_values>
+                    <calories></calories>
+                    <carbohydrates></carbohydrates>
+                    <fat></fat>
+                    <protein></protein>
+                    <bone></bone>
+                    <meat></meat>
+                    <calcium></calcium>
+                    <phosphorus></phosphorus>
+                    <moisture></moisture>
+                    <ash></ash>
+                </common_values>
+                <vitamins>
+                    <A></A>
+                    <B1></B1> <!-- thiamine -->
+                    <B2></B2> <!-- riboflavin -->
+                    <B3></B3> <!-- niacin -->
+                    <B5></B5> <!-- pantothenic acid -->
+                    <B6></B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9></B9> <!-- folic acid -->
+                    <B12></B12>
+                    <C></C>
+                    <D></D>
+                    <E></E>
+                    <K></K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper></copper>
+                    <fiber></fiber>
+                    <iodine></iodine>
+                    <iron></iron>
+                    <magnesium></magnesium>
+                    <manganese></manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium></potassium>
+                    <selenium></selenium>
+                    <sodium></sodium>
+                    <zinc></zinc>
+                </other_values>
+            </ground_whole>
+            <ground_meat>
+                <common_values>
+                    <calories>124</calories>
+                    <carbohydrates>0</carbohydrates>
+                    <fat>3.9</fat>
+                    <protein>21.5</protein>
+                    <bone>0</bone>
+                    <meat>100</meat>
+                    <calcium>0.0125</calcium>
+                    <phosphorus>0.217</phosphorus>
+                    <moisture>74.51</moisture>
+                    <ash>1.12</ash>
+                </common_values>
+                <vitamins>
+                    <A>7.5</A>
+                    <B1>90</B1> <!-- thiamine -->
+                    <B2>190</B2> <!-- riboflavin -->
+                    <B3>4400</B3> <!-- niacin -->
+                    <B5></B5> <!-- pantothenic acid -->
+                    <B6>360</B6> <!-- pyridoxine -->
+                    <B7></B7> <!-- biotin -->
+                    <B9></B9> <!-- folic acid -->
+                    <B12>1</B12>
+                    <C>0</C>
+                    <D>0</D>
+                    <E>800</E>
+                    <K>3</K>
+                </vitamins>
+                <other_values>
+                    <chloride></chloride>
+                    <copper></copper>
+                    <fiber>0</fiber>
+                    <iodine>3</iodine>
+                    <iron>2500</iron>
+                    <magnesium>26000</magnesium>
+                    <manganese></manganese>
+                    <omega3></omega3>
+                    <omega6></omega6>
+                    <potassium>340000</potassium>
+                    <selenium>6</selenium>
+                    <sodium>50000</sodium>
+                    <zinc>1700</zinc>
+                </other_values>
+            </ground_meat>
+        </part>
+    </rabbit>
+
+</food>

@@ -1,0 +1,315 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.lapinamk.holli.rawcatcare.CreateCatActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:rowOrderPreserved="true"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            >
+
+            <RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/container_photo"
+                android:layout_marginBottom="5dp">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_image"
+                    android:id="@+id/add_photo_button"
+                    android:elegantTextHeight="false"
+                    android:minLines="2"
+                    android:onClick="addPhoto"
+                    android:clickable="true"
+                    android:visibility="visible"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/add_photo"
+                    android:src="@drawable/ic_action_new_picture"
+                    android:layout_centerInParent="true"/>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageView"
+                    android:contentDescription="@string/cat_avatar"
+                    android:visibility="invisible"
+                    android:onClick="addPhoto"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nameContainer"
+                android:layout_below="@+id/container_photo"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/cat_name"
+                    android:id="@+id/nameLabel"
+                    android:inputType="none"
+                    android:gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:textSize="@dimen/abc_text_size_small_material" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edit_name"
+                    android:layout_weight="1"
+                    android:inputType="textNoSuggestions|textCapWords"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:maxLength="20"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/breedContainer"
+                android:layout_below="@+id/nameContainer"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/breed"
+                    android:id="@+id/label_breed"
+                    android:inputType="none"
+                    android:textIsSelectable="false"
+                    android:gravity="fill_vertical"
+                    android:layout_marginRight="5dp"
+                    android:textSize="@dimen/abc_text_size_small_material" />
+
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/spinner_breed"
+                    android:layout_weight="1"
+
+                    android:spinnerStyle="@android:style/Widget.Spinner.DropDown"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/DOBcontainer"
+                android:layout_below="@+id/breedContainer"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/date_of_birth"
+                    android:id="@+id/dobLabel"
+                    android:layout_marginRight="5dp"
+                    android:textSize="@dimen/abc_text_size_small_material"
+                    android:gravity="center_vertical" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:ems="10"
+                    android:id="@+id/edit_dob"
+                    android:layout_weight="1"
+                    android:onClick="spawnDatePicker"
+                    android:focusable="false"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/genderContainer"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/DOBcontainer"
+                android:layout_alignParentRight="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/cat_gender"
+                    android:id="@+id/genderLabel"
+                    android:textSize="@dimen/abc_text_size_small_material"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginRight="20dp"/>
+
+                <RadioGroup
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:baselineAligned="false"
+                    android:measureWithLargestChild="false"
+                    android:id="@+id/radio_group_gender"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/genderLabel"
+                    android:layout_toEndOf="@+id/genderLabel">
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/female"
+                        android:id="@+id/femaleRadio"
+                        android:checked="true"
+                        android:layout_weight="1"/>
+
+                    <RadioButton
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/male"
+                        android:id="@+id/maleRadio"
+                        android:checked="false"
+                        android:layout_weight="1"/>
+
+                </RadioGroup>
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/neutered"
+                    android:id="@+id/status_checkbox_neutered"
+                    android:checked="false"
+                    android:layout_below="@+id/radio_group_gender"
+                    android:layout_alignLeft="@+id/radio_group_gender"
+                    android:layout_alignStart="@+id/radio_group_gender" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nursing_label"
+                    android:id="@+id/checkbox_nursing"
+                    android:checked="false"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weightContainer"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/genderContainer"
+                android:layout_alignParentRight="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/weight_label"
+                    android:id="@+id/weightLabel"
+                    android:gravity="fill_vertical"
+                    android:textSize="@dimen/abc_text_size_small_material" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:ems="10"
+                    android:id="@+id/edit_weight"
+                    android:layout_weight="1"
+                    android:maxLength="3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/activityContainer"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/weightContainer"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/activity_level"
+                    android:id="@+id/activityLabel"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/abc_text_size_small_material" />
+
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner_activity"
+                    android:layout_weight="1"
+                    android:spinnerStyle="@android:style/Widget.Spinner.DropDown"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/activityContainer"
+                android:layout_alignParentRight="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/shape_of_cat"
+                    android:id="@+id/shapeLabel"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/abc_text_size_small_material"
+                    />
+
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner_shape"
+                    android:spinnerMode="dropdown"
+                    android:layout_weight="1"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_cat"
+        android:id="@+id/saveCatButton"
+        android:layout_gravity="fill_horizontal"
+        android:onClick="saveCatInfo"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
